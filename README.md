@@ -49,7 +49,7 @@ The following resources were referenced to implement this project:
 - Generative Adversarial Networks (GANs): Integrate Discriminator and Generator into topic classification
 - Poem or Not-A-Poem: word-stress, rhymes
 
-# Project Organization
+# Folder Structure
 ------------
 
     ├── LICENSE
