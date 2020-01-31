@@ -7,12 +7,16 @@ By Arvin, Aznor, Ganesh and Michelle for `Week/Assignment 8:` End-to-end Project
 ## Installation
 Firstly, clone the repository to a folder of your choice. 
 
-The project has been dockerised to simplify testing and deployment on local machine. 
-Simply navigate to the project folder and run the buildfile provided.
+Next install the necessary libraries
 
-```bash
-bash build.sh
-```
+1. Create an environment with a specific version of Python
+	conda create -n <env name> python=3.6
+
+2. Install the appropriate version of pytorch by following the instructions here:
+	https://pytorch.org/
+
+3. Install fastai
+	conda install -c fastai fastai
 
 ## Usage
 1. Choose the poem genre.
@@ -36,16 +40,6 @@ Apply transfer learning on fastai's pre-trained model UMLfit to generate poems. 
 To validate whether the text generator was able to output a topical poem, a classifier was trained on a separate set of topical poems. The classifier takes the generated text as an input.
 - __Step 4: API and UI__ `src/app.py`
 Create a user-friendly webpage for users to interact with the model. Usage of the UI is explained above.
-
-## Installation
-1. Create an environment with a specific version of Python
-	conda create -n <env name> python=3.6
-
-2. Install the appropriate version of pytorch by following the instructions here:
-	https://pytorch.org/
-
-3. Install fastai
-	conda install -c fastai fastai
 
 ## Model Architecture
 ![Model Architecture](http://gitlab.int.aisingapore.org/aiap/aiap4/team1-project/blob/team1_michelle/Architecture_diagram.PNG)
@@ -93,3 +87,10 @@ The following resources were referenced to implement this project:
             ├── predict_model.py
             └── train_model.py
 
+## Dockerising
+The project will be dockerised to simplify testing and deployment on local machine. 
+In future, simply navigate to the project folder and run the buildfile provided.
+
+```bash
+bash build.sh
+```
