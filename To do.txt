@@ -1,0 +1,7 @@
+fix make_data python with pydrive:
+https://pypi.org/project/PyDrive/
+
+dockerise solution
+
+references:
+https://github.com/prrao87/tweet-stance-prediction
