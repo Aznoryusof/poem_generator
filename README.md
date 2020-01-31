@@ -37,6 +37,16 @@ To validate whether the text generator was able to output a topical poem, a clas
 - __Step 4: API and UI__ `src/app.py`
 Create a user-friendly webpage for users to interact with the model. Usage of the UI is explained above.
 
+## Installation
+1. Create an environment with a specific version of Python
+	conda create -n <env name> python=3.6
+
+2. Install the appropriate version of pytorch by following the instructions here:
+	https://pytorch.org/
+
+3. Install fastai
+	conda install -c fastai fastai
+
 ## Model Architecture
 ![Model Architecture](http://gitlab.int.aisingapore.org/aiap/aiap4/team1-project/blob/team1_michelle/Architecture_diagram.PNG)
 

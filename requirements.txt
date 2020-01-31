@@ -1,4 +1,5 @@
 python-dateutil==2.8.0
 streamlit==0.49.0
 gtts==2.0.4
-fastai==1.0.59
+jupyter
+sklearn
