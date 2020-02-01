@@ -21,9 +21,9 @@ Next install the necessary libraries
 Next download the necessary datasets that have been pre-processed by running the following script in the terminal
 in the project's main directory
 
-'''
+```
 python src\data\make_dataset.py
-'''
+```
 
 ## Usage
 1. Choose the poem genre.
