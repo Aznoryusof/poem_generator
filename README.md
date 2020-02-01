@@ -10,16 +10,22 @@ Firstly, clone the repository to a folder of your choice.
 Next install the necessary libraries
 
 1. Create an environment with a specific version of Python
-	conda create -n <env name> python=3.6
+	```
+   conda create -n <env name> python=3.6
+   ```
 
 2. Install the appropriate version of pytorch by following the instructions here:
-	https://pytorch.org/
+	```
+   https://pytorch.org/
+   ```
 
 3. Install fastai
-	conda install -c fastai fastai
+   ```
+   conda install -c fastai fastai
+   ```
 
 Next download the necessary datasets that have been pre-processed by running the following script in the terminal
-in the project's main directory
+in the project's main directory.
 
 ```
 python src\data\make_dataset.py
