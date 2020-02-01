@@ -14,7 +14,7 @@ Next install the necessary libraries
    conda create -n <env name> python=3.6
    ```
 
-2. Install the appropriate version of pytorch by following the instructions here:
+2. Install the appropriate version of pytorch by following the instructions here
 	```
    https://pytorch.org/
    ```
