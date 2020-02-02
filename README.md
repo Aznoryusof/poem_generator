@@ -9,7 +9,7 @@ Firstly, clone the repository to a folder of your choice.
 
 Next install the necessary libraries
 
-1. Create an environment with a specific version of Python
+1. Create an environment with a specific version of Python and activate the environment
 	```
    conda create -n <env name> python=3.6
    ```
