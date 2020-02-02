@@ -31,7 +31,7 @@ in the project's main directory.
 python src\data\make_dataset.py
 ```
 
-## Usage
+## Usage of UI
 1. Choose the poem genre.
 2. Input the number of words you want in the generated poem.
 3. Input the starting line of the poem.
@@ -77,26 +77,23 @@ The following resources were referenced to implement this project:
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Trained and serialized models, model predictions, or model summaries.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks for exploratory analysis.
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment.
     │
     ├── src                <- Source code for use in this project.
-        ├── __init__.py    <- Makes src a Python module
+        ├── __init__.py    <- Makes src a Python module.
         │
-        ├── data           <- Scripts to download or generate data
+        ├── data           <- Scripts to download or generate data.
         │   └── make_dataset.py
         │
-        ├── features       <- Scripts to turn raw data into features for modeling
+        ├── features       <- Scripts to turn raw data into features for modeling.
         │   └── build_features.py
         │
         ├── models         <- Scripts to train models and then use trained models to make
-            │                 predictions
+            │                 predictions.
             ├── predict_model.py
             └── train_model.py
 
