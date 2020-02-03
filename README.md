@@ -31,6 +31,14 @@ in the project's main directory.
 python src\data\make_dataset.py
 ```
 
+## Dockerising
+This project has been dockerised to simplify testing and deployment on the local machine. 
+Simply navigate to the project folder and run the buildfile provided.
+
+```bash
+bash build.sh
+```
+
 ## Usage of UI
 1. Choose the poem genre.
 2. Input the number of words you want in the generated poem.
@@ -97,10 +105,3 @@ The following resources were referenced to implement this project:
             ├── predict_model.py
             └── train_model.py
 
-## Dockerising
-The project will be dockerised to simplify testing and deployment on local machine. 
-In future, simply navigate to the project folder and run the buildfile provided.
-
-```bash
-bash build.sh
-```
